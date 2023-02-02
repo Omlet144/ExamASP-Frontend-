@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(76, 167, 167);
+}
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+#container2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.cart{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: rgb(35, 60, 80);
+    color: azure;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cart2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: rgb(35, 60, 80);
+    color: azure;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cart:hover{
+    border-color: yellow;
+}
+.cart2:hover{
+    border-color: yellow;
+}
+.name_category{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #f0f8ffa4;
+}
+.cart_gadget{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #f0f8fff5;
+}
+.btns{
+    display: flex;
+    flex-flow: row wrap;
+}
+.btn_gadget{
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+}
+#form1{
+    
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px; 
+    border-style: ridge;
+    border-color: aliceblue;
+    display: none;
+}
+#form2{
+    
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px; 
+    border-style: ridge;
+    border-color: aliceblue;
+    display: none;
+}
+#container_for_form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#DellBtn{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: aliceblue;
+    
+    background-color: rgb(236, 100, 100);
+}
+#UpdateBtn{
+    height: 25px;
+}
+.img_gadget{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+table {
+    text-align: center; 
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    color: #ffffff;
+    font-style: initial;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+

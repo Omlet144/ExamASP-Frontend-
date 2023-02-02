@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   href="/style/style_for_manager.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    <script src="/js code/manager.js"> </script>
+</head>
+<body>
+    <div id="container">
+    </div>
+    <br>
+    <br>
+    <div id="container2">
+        <table id="table_gadgets">
+            <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Model</th>
+              <th>Price ₴</th>
+              <th>Quantity</th>
+              <th>Sold</th>
+              <th>Enabled</th>
+              <th>Edit</th>
+            </tr>
+          </table>
+    </div>
+    <br>
+    <div class="btns">
+    <button class="btn_gadget" id="add_gadget">Add Gadget</button>
+    <button class="btn_gadget" id="add_manager">Regist New Manager</button>
+    </div>
+    <br>
+    <div id="container_for_form">
+        <div id="form1">
+            <br>
+            <label for="img_new_gadget" >Image url:</label>
+            <input class="new_gadget" id="img_new_gadget">
+            <label for="name_new_gadget" >Name:</label>
+            <input class="new_gadget" id="name_new_gadget">
+            <label for="model_new_gadget" >Model:</label>
+            <input class="new_gadget" id="model_new_gadget">
+            <label for="price_new_gadget">Price:</label>
+            <input class="new_gadget" id="price_new_gadget">
+            <label for="quantity_new_gadget" >Quantity:</label>
+            <input class="new_gadget" id="quantity_new_gadget">
+            <label for="status_new_gadget" >Status:</label>
+            <select id="status_new_gadget">
+                <option value="true" selected>Enablet</option>
+                <option value="false">Disabled</option>
+            </select>
+            <label for="select_category">Category:</label>
+            <select id="select_category">
+                <option value="1"selected>Smartphone</option>
+                <option value="2">TV</option>
+                <option value="3">Tablets</option>
+            </select>
+            <br>
+            <button class="btn_gadget" id="create_gadget">Add</button>
+            <br>
+        </div>
+        <div id="form2">
+            <br>
+            <label for="img_update_gadget" >Image url:</label>
+            <input class="new_gadget" id="img_update_gadget">
+            <label for="name_update_gadget" >Name:</label>
+            <input class="new_gadget" id="name_update_gadget">
+            <label for="model_update_gadget" >Model:</label>
+            <input class="new_gadget" id="model_update_gadget">
+            <label for="price_update_gadget">Price:</label>
+            <input class="new_gadget" id="price_update_gadget">
+            <label for="quantity_update_gadget" >Quantity:</label>
+            <input class="new_gadget" id="quantity_update_gadget">
+            <label for="sold_update_gadget" >Sold:</label>
+            <input class="new_gadget" id="sold_update_gadget">
+            <label for="status_update_gadget" >Status:</label>
+            <select id="status_update_gadget">
+                <option value="true" selected>Enablet</option>
+                <option value="false">Disabled</option>
+            </select>
+            <label for="select_update_category">Category:</label>
+            <select id="select_update_category">
+                <option value="1"selected>Smartphone</option>
+                <option value="2">TV</option>
+                <option value="3">Tablets</option>
+            </select>
+            <br>
+            <button class="btn_gadget" id="update_gadget">Update</button>
+            <br>
+        </div>
+    </div>
+</body>
